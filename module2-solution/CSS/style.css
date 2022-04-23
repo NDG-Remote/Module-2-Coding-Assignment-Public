@@ -1,0 +1,89 @@
+/********** large devices only **********/
+@media (min-width: 992px) {
+	#ID1 {
+		width: 33.3%
+	}
+	#ID2 {
+		width: 33.3%
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#ID1 {
+		width: 50%
+	}
+	#ID2 {
+		margin: 0px
+	}
+}
+
+@media (max-width: 767px) {
+	#ID1 {
+		width: 90%
+	}
+	#ID2 {
+		width: 90%
+	}
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma;
+}
+
+h1 {
+	font-size: 175%;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black; 
+	width: 40%;
+	float: right;
+	margin: 0px;
+}
+
+section {
+	color: black;
+	float: left;
+}
+
+footer {
+	clear: left;
+	text-align: center;
+}
+
+p {
+	padding-top: 30px;
+}
+
+#chicken {
+	background-color: #547C9B;
+}
+
+#beef {
+	background-color: #C88648;
+}
+
+#sushi {
+	background-color: #8B827C;
+}
+
+div {
+	background-color: #AAB1BB;
+	border: 1px solid black;
+	margin: 10px;
+}
+
+div p {
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
